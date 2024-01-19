@@ -1,12 +1,11 @@
-import { Html, Head, Main, NextScript } from 'next/document'
+import { Html, Head, Main, NextScript } from 'next/document';
 
 export default function Document() {
   const meta = {
-    title: 'Dhiren Vazirani ',
-    description: 'Hi, I'm Dhiren. I'm a data scientist who works on projects and web apps with Python, 
-    TypeScript, React.js, SQL, C, Symfony and AWS',
-    image: 'https://assets.vercel.com/image/upload/q_auto/front/vercel/dps.png'
-  }
+    title: 'Dhiren Vazirani',
+    description: "Hi, I'm Dhiren. I'm a data scientist who works on projects and web apps with Python, TypeScript, React.js, SQL, C, Symfony and AWS",
+    image: 'https://assets.vercel.com/image/upload/q_auto/front/vercel/dps.png',
+  };
 
   return (
     <Html lang="en">
@@ -28,5 +27,6 @@ export default function Document() {
         <NextScript />
       </body>
     </Html>
-  )
+  );
 }
+
