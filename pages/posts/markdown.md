@@ -8,42 +8,6 @@ author: You
 
 # Markdown Examples
 
-## h2 Heading
-
-### h3 Heading
-
-#### h4 Heading
-
-##### h5 Heading
-
-###### h6 Heading
-
-## Emphasis
-
-**This is bold text**
-
-_This is italic text_
-
-~~Strikethrough~~
-
-## Blockquotes
-
-> Develop. Preview. Ship. – Vercel
-
-## Lists
-
-Unordered
-
-- Lorem ipsum dolor sit amet
-- Consectetur adipiscing elit
-- Integer molestie lorem at massa
-
-Ordered
-
-1. Lorem ipsum dolor sit amet
-2. Consectetur adipiscing elit
-3. Integer molestie lorem at massa
-
 ## Code
 
 Inline `code`
@@ -71,29 +35,24 @@ export default function Nextra({ Component, pageProps }) {
     </>
   )
 }
-```
 
-## Tables
+Projects
+Project 1 Title <Sentiment Analysis for Cryptocurrencies using Neural Networks -->
+April 2023 – May 2023
 
-| **Option** | **Description**                                                                                                             |
-| ---------- | --------------------------------------------------------------------------------------------------------------------------- |
-| First      | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. |
-| Second     | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. |
-| Third      | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. |
+Description of Project 1
+https://github.com/DhirenV01/cryptosentiment
+Achievements and outcomes
+Project 2 Title <!Sentiment alalnyalysis customer review>
+October 2021 – December 2021
 
-## Links
-
-- [Next.js](https://nextjs.org)
-- [Nextra](https://nextra.vercel.app/)
-- [Vercel](http://vercel.com)
-
-### Footnotes
-
-- Footnote [^1].
-- Footnote [^2].
-
-[^1]: Footnote **can have markup**
-
-    and multiple paragraphs.
-
-[^2]: Footnote text.
+Description of Project 2
+Technologies used and key features
+Links
+https://github.com/DhirenV01/sentimentalalnyalysiscustomerreview
+Next.js
+Nextra
+Vercel
+Footnotes
+Footnote 1.
+Footnote 2.
