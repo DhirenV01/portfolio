@@ -54,7 +54,7 @@ Relevant Coursework:
 - Collaborated with cross-functional teams for cloud-based data solutions
 
 ### Comcast - Data Analyst Intern
-*2022 - August 2022 | Mount Laurel, NJ*
+*May 2022 - August 2022 | Mount Laurel, NJ*
 
 - Developed Python scripts to search through datasets and locate missing records
 - Maintained interactive dashboards and reports using data visualization tools (Tableau, Power BI)
@@ -74,8 +74,16 @@ Relevant Coursework:
 ### Sentiment Analysis for Cryptocurrencies using Neural Networks
 *April 2023 – May 2023*
 
-- Trained a deep learning model employing recurrent neural networks (RNNs) and LSTM layers for sentiment analysis
-- Achieved an accuracy of 88% on a diverse dataset of customer reviews
+- Developed a cryptocurrency sentiment analysis tool for real-time insights from Twitter
+- Applied Tweepy, NLTK, and TensorFlow to collect data, preprocess, and implement a neural network for accurate sentiment analysis
+- Deployed a Flask API for practical use, showcasing proficiency in Python, machine learning, and deployment
+
+### Movie Recommendation System
+*December 2022 - January 2023*
+
+- Engineered a Movie Recommendation System in Python using collaborative filtering and matrix factorization (SVD) techniques
+- Applied User-Based and Item-Based collaborative filtering algorithms for personalized movie suggestions
+- Efficiently managed and processed large datasets with NumPy and pandas
 
 ### Online Travel Reservation System
 *October 2021 – December 2021*
@@ -84,7 +92,6 @@ Relevant Coursework:
 - Used HTML for the user interface and MySQL for the database server
 - Worked in Java and JDBC for connectivity between the user interface and database server
 
-Feel free to customize the content further according to your preferences. Once you're satisfied, save the file, commit the changes, and push them to your repository.
 
 
 
