@@ -10,37 +10,52 @@ author: Dhiren Vazirani
 
 Hey there! I'm Dhiren Vazirani, a dedicated Data Scientist with a passion for turning data into insights. Below are some of the exciting projects I've worked on:
 
-## CryptoCrowd
+## Cryptocurrency Sentiment Analysis
 
-**Made with:**
-- Cryptocurrency sentiment analysis on tweets.
-- Elasticache and S3 on AWS.
-- EC2 and auto-scaling for managing demand.
+**Objective:**
+Developed a sentiment analysis platform focusing on cryptocurrency discussions on Twitter to provide real-time insights into the community's sentiment.
 
-CryptoCrowd involves sentiment analysis on tweets related to various cryptocurrencies. Users can get an overview of sentiment (positive, negative, or neutral) based on what people are tweeting. The project utilizes AWS services like Elasticache and S3, with EC2 and auto-scaling to handle demand effectively.
+**Technologies:**
+
+Tweepy for Twitter API access
+NLTK for data preprocessing
+TensorFlow for building and training the sentiment analysis neural network
+Flask for API deployment
+
+**Key Features:**
+Dynamic data collection from Twitter for up-to-date sentiment analysis.
+Robust data preprocessing pipeline ensuring the quality of input data.
+Neural network model designed to capture nuanced sentiment patterns in cryptocurrency-related text.
+Thorough model evaluation using diverse metrics for performance assessment.
+Practical deployment through a Flask API, enabling real-time sentiment predictions.
+
+**Outcomes**
+Successful creation of a tool for monitoring and understanding sentiment trends within the cryptocurrency community.
+Showcase of proficiency in Python, machine learning, and deployment strategies.
+
+This projct involves sentiment analysis on tweets related to various cryptocurrencies. Users can get an overview of sentiment (positive, negative, or neutral) based on what people are tweeting. The project utilizes AWS services like Elasticache and S3, with EC2 and auto-scaling to handle demand effectively.
 
 ## Movie Recommendation System (MRS)
 
 **Key Features:**
-- Django-based web application.
-- Model training on large movie datasets from Kaggle.
-- Deployment on Render Free Cloud.
+
+**Objective:**
+Engineered a Python-based Movie Recommendation System utilizing collaborative filtering and matrix factorization techniques.
+
+**Technologies:**
+Collaborative Filtering Algorithms (User-Based, Item-Based)
+Matrix Factorization (SVD)
+Python, NumPy, pandas
+User Interface Development (Flask/Django)
+
+**Key Features:**
+Personalized movie recommendations through advanced collaborative filtering.
+Efficient data handling and processing using NumPy and pandas.
+Developed an intuitive user interface for a seamless user experience.
+Showcased expertise in recommendation system algorithms and user interface development.
 
 MRS is a comprehensive movie recommendation system with a Django-based web application. The model is trained on a large movie dataset from Kaggle, ensuring robust recommendations. The application is deployed on Render Free Cloud, providing users with a seamless experience.
 
-## About the Projects
-
-### CryptoSentiment
-
-- Conducts sentiment analysis on cryptocurrency tweets.
-- Utilizes Elasticache and S3 on AWS for efficient data storage.
-- Implements EC2 and auto-scaling to manage varying demand.
-
-### Movie Recommendation System (MRS)
-
-- Employs Django for the web application.
-- Trains the model on a substantial movie dataset from Kaggle.
-- Hosted on Render Free Cloud for accessibility.
 
 ## Want to Explore More?
 
