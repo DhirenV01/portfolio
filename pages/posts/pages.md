@@ -62,7 +62,7 @@ MRS is a comprehensive movie recommendation system with a Django-based web appli
 Feel free to check out the individual repositories for each project:
 
 1. [CryptoCrowd Repository](<https://github.com/DhirenV01/cryptosentiment>)
-2. [Movie Recommendation System (MRS) Repository](<link-to-mrs-repo>)
+2. [Movie Recommendation System (MRS) Repository](<(https://github.com/DhirenV01/movierecommendsystem?tab=readme-ov-file)>)
 
 ## Connect with Me
 
