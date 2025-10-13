@@ -1,7 +1,7 @@
 ---
 type: posts
 title: Dhiren Vazirani's Portfolio
-date: 2024-01-19
+
 ---
 
 # Dhiren Vazirani - Portfolio
@@ -28,22 +28,34 @@ Relevant Coursework:
 
 ## Skills
 
-- Java
-- Javascript
-- Python
-- C
-- C++
-- R
-- SQL
-- Tableau
-- Power BI
-- HTML
-- CSS
-- Microsoft Word
-- Microsoft Excel
-- SolidWorks
+Cloud Platforms: Microsoft Fabric, Azure (Data Factory, Synapse, Functions), AWS (EC2, S3, Lambda, RDS, API Gateway)
+Data & Streaming: Apache Kafka, Apache Spark, dbt, ETL/ELT pipelines, dimensional modeling, star schema design
+Programming & APIs: Python, FastAPI, Node.js, JavaScript, React, RESTful API development, OpenAPI standards
+Databases: SQL Server, PostgreSQL, relational schema design, query optimization
+DevOps & Automation: Git, GitLab CI/CD, Docker, automated testing frameworks
+Monitoring & Performance: CloudWatch, performance tuning, database indexing
 
 ## Experience
+
+**Metrostar** **Software Engineer** **– Data/Backend**
+Jan 2025 - Oct 2025  Reston, VA
+
+- Led the integration of AI/ML algorithms into existing workflows
+- Architected distributed ELT pipelines using Apache Spark (PySpar
+- Built and optimized distributed ELT pipelines in Databricks and Apache Spark, processing 5M+ daily records with partition tuning and broadcast joins to improve throughput and reduce compute costs.k) on AWS EMR and Azure Synapse, processing 5M+ records daily with optimized partition strategies and broadcast joins.
+- Developed data ingestion and transformation frameworks orchestrated with Apache Airflow, enabling reliable and observable data movement across Bronze, Silver, and Gold layers in Microsoft Fabric.
+- Containerized and deployed Spark workloads on Kubernetes clusters, improving scalability and runtime consistency
+- Engineered hybrid data storage solutions leveraging AWS S3 and on-prem MinIO, integrating structured and unstructured data for analytics pipelines.
+- Created MIRA, an AI-driven talent-matching platform powered by GPT-4 and Azure Cognitive Search, using a RAG architecture to enable semantic querying of 1K+ employee profiles.
+- Designed SQL-based data models and dimensional schemas to build analytics dashboards and improve query response times by 3x.
+- Automated infrastructure provisioning and CI/CD workflows with Terraform and GitLab, reducing deployment time by 75% while ensuring reproducibility and compliance.
+
+**PNC Bank - Data Analyst**
+March 2024-July 2024 |  Pittsburgh, PA
+- Designed and implemented ETL processes using Informatica for enterprise data warehouse loading, ensuring data quality and lineage across complex financial dataset
+- Built dimensional data models supporting compliance and financial performance analytics, optimizing database performance through strategic indexing and query tuning
+- Developed automated data ingestion solutions for JSON datasets, reducing manual processing time by 4+ hours daily
+- Created interactive dashboards with dbt transformations and optimized SQL, enabling self-service analytics for stakeholders
 
 ### BNY Mellon - Data Scientist
 *May 2023 - January 2024 | Pittsburgh, PA*
@@ -72,7 +84,7 @@ Relevant Coursework:
 ## Projects
 
 ### Sentiment Analysis for Cryptocurrencies using Neural Networks
-*April 2023 – May 2023*
+*April 20234 – May 2024*
 
 - Developed a cryptocurrency sentiment analysis tool for real-time insights from Twitter
 - Applied Tweepy, NLTK, and TensorFlow to collect data, preprocess, and implement a neural network for accurate sentiment analysis
