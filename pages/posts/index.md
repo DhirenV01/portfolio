@@ -6,26 +6,6 @@ title: Dhiren Vazirani's Portfolio
 
 # Dhiren Vazirani - Portfolio
 
-## Education
-
-**Rutgers University, New Brunswick**
-*September 2019-May 2023*
-*New Brunswick, New Jersey*
-
-- Bachelor of Science in Computer Science
-- Minor in Quantitative Economics
-- Minor in Data Science
-
-Relevant Coursework:
-- Data Structures
-- Intro to Data Science
-- Computer Architecture
-- Intro to Computer Science Using Java
-- DSGN&ANAL COMP ALGOR
-- Software Methodology
-- Internet Technology
-- Data Management for Data Science
-
 ## Skills
 
 Cloud Platforms: Microsoft Fabric, Azure (Data Factory, Synapse, Functions), AWS (EC2, S3, Lambda, RDS, API Gateway)
@@ -80,6 +60,26 @@ March 2024-July 2024 |  Pittsburgh, PA
 - Developed and maintained middleware solutions for efficient and secure communication and data exchange
 - Assisted with support tickets in Apigee and Kafka Cloud environments
 - Learned to scale middleware for millisecond response and manage multi-node run items
+
+## Education
+
+**Rutgers University, New Brunswick**
+*September 2019-May 2023*
+*New Brunswick, New Jersey*
+
+- Bachelor of Science in Computer Science
+- Minor in Quantitative Economics
+- Minor in Data Science
+
+Relevant Coursework:
+- Data Structures
+- Intro to Data Science
+- Computer Architecture
+- Intro to Computer Science Using Java
+- DSGN&ANAL COMP ALGOR
+- Software Methodology
+- Internet Technology
+- Data Management for Data Science
 
 ## Projects
 
