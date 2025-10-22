@@ -84,7 +84,7 @@ Relevant Coursework:
 ## Projects
 
 ### Sentiment Analysis for Cryptocurrencies using Neural Networks
-*April 20234 – May 2024*
+*April 2024 – May 2024*
 
 - Developed a cryptocurrency sentiment analysis tool for real-time insights from Twitter
 - Applied Tweepy, NLTK, and TensorFlow to collect data, preprocess, and implement a neural network for accurate sentiment analysis
