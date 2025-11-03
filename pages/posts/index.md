@@ -15,6 +15,38 @@ Databases: SQL Server, PostgreSQL, relational schema design, query optimization
 DevOps & Automation: Git, GitLab CI/CD, Docker, automated testing frameworks
 Monitoring & Performance: CloudWatch, performance tuning, database indexing
 
+## Projects
+
+### Employee Management & Skills Tracking API
+*September 2025 – October 2025*
+
+- Architected and developed a microservice-based RESTful API using Spring Boot 3.2, Spring Data JPA, and PostgreSQL for comprehensive employee lifecycle management
+- Implemented OAuth 2.0 authentication with JWT tokens, role-based authorization (RBAC), and rate limiting to secure API endpoints serving employee and skills data
+- Optimized database queries with strategic indexing and Redis caching (Jedis client), reducing P95 latency from 200ms to 80ms for search operations
+- Built CI/CD pipeline with GitHub Actions, Docker containerization, and automated testing (JUnit 5, Mockito) achieving 85% code coverage before deployment
+
+### Sentiment Analysis for Cryptocurrencies using Neural Networks
+*April 2024 – May 2024*
+
+- Developed a cryptocurrency sentiment analysis tool for real-time insights from Twitter
+- Applied Tweepy, NLTK, and TensorFlow to collect data, preprocess, and implement a neural network for accurate sentiment analysis
+- Deployed a Flask API for practical use, showcasing proficiency in Python, machine learning, and deployment
+
+### Movie Recommendation System
+*December 2022 - January 2023*
+
+- Engineered a Movie Recommendation System in Python using collaborative filtering and matrix factorization (SVD) techniques
+- Applied User-Based and Item-Based collaborative filtering algorithms for personalized movie suggestions
+- Efficiently managed and processed large datasets with NumPy and pandas
+
+### Online Travel Reservation System
+*October 2021 – December 2021*
+
+- Designed and implemented a relational database system for an online reservation system
+- Used HTML for the user interface and MySQL for the database server
+- Worked in Java and JDBC for connectivity between the user interface and database server
+
+
 ## Experience
 
 **Metrostar** **Software Engineer** **– Data/Backend**
@@ -80,40 +112,6 @@ Relevant Coursework:
 - Software Methodology
 - Internet Technology
 - Data Management for Data Science
-
-## Projects
-
-### Sentiment Analysis for Cryptocurrencies using Neural Networks
-*September 2025 – October 2025*
-
-- Developed a cryptocurrency sentiment analysis tool for real-time insights from Twitter
-- Applied Tweepy, NLTK, and TensorFlow to collect data, preprocess, and implement a neural network for accurate sentiment analysis
-- Deployed a Flask API for practical use, showcasing proficiency in Python, machine learning, and deployment
-- Architected and developed a microservice-based RESTful API using Spring Boot 3.2, Spring Data JPA, and PostgreSQL for comprehensive employee lifecycle management
-- Implemented OAuth 2.0 authentication with JWT tokens, role-based authorization (RBAC), and rate limiting to secure API endpoints serving employee and skills data
-- Optimized database queries with strategic indexing and Redis caching (Jedis client), reducing P95 latency from 200ms to 80ms for search operations
-- Built CI/CD pipeline with GitHub Actions, Docker containerization, and automated testing (JUnit 5, Mockito) achieving 85% code coverage before deployment
-
-### Sentiment Analysis for Cryptocurrencies using Neural Networks
-*April 2024 – May 2024*
-
-- Developed a cryptocurrency sentiment analysis tool for real-time insights from Twitter
-- Applied Tweepy, NLTK, and TensorFlow to collect data, preprocess, and implement a neural network for accurate sentiment analysis
-- Deployed a Flask API for practical use, showcasing proficiency in Python, machine learning, and deployment
-
-### Movie Recommendation System
-*December 2022 - January 2023*
-
-- Engineered a Movie Recommendation System in Python using collaborative filtering and matrix factorization (SVD) techniques
-- Applied User-Based and Item-Based collaborative filtering algorithms for personalized movie suggestions
-- Efficiently managed and processed large datasets with NumPy and pandas
-
-### Online Travel Reservation System
-*October 2021 – December 2021*
-
-- Designed and implemented a relational database system for an online reservation system
-- Used HTML for the user interface and MySQL for the database server
-- Worked in Java and JDBC for connectivity between the user interface and database server
 
 
 
