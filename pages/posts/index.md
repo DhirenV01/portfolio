@@ -84,6 +84,17 @@ Relevant Coursework:
 ## Projects
 
 ### Sentiment Analysis for Cryptocurrencies using Neural Networks
+*September 2025 – October 2025*
+
+- Developed a cryptocurrency sentiment analysis tool for real-time insights from Twitter
+- Applied Tweepy, NLTK, and TensorFlow to collect data, preprocess, and implement a neural network for accurate sentiment analysis
+- Deployed a Flask API for practical use, showcasing proficiency in Python, machine learning, and deployment
+- Architected and developed a microservice-based RESTful API using Spring Boot 3.2, Spring Data JPA, and PostgreSQL for comprehensive employee lifecycle management
+- Implemented OAuth 2.0 authentication with JWT tokens, role-based authorization (RBAC), and rate limiting to secure API endpoints serving employee and skills data
+- Optimized database queries with strategic indexing and Redis caching (Jedis client), reducing P95 latency from 200ms to 80ms for search operations
+- Built CI/CD pipeline with GitHub Actions, Docker containerization, and automated testing (JUnit 5, Mockito) achieving 85% code coverage before deployment
+
+### Sentiment Analysis for Cryptocurrencies using Neural Networks
 *April 2024 – May 2024*
 
 - Developed a cryptocurrency sentiment analysis tool for real-time insights from Twitter
