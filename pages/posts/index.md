@@ -17,6 +17,17 @@ Monitoring & Performance: CloudWatch, performance tuning, database indexing
 
 ## Projects
 
+### Github Data Tracker
+*November 2025 – January 2026*
+
+- Engineered a fully automated ETL pipeline using AWS Lambda, S3, and EventBridge to track and analyze global repository trends via the GitHub API
+- Implemented a multi-stage data lake pattern, moving data from raw daily snapshots (Bronze) to processed weekly/monthly summaries (Silver/Gold) for efficient querying
+- Architected the entire system to run at $0/month by leveraging AWS Free Tier limits, CloudFront edge caching, and a "scale-to-zero" compute model
+- Optimized data retrieval and reprocessing by storing raw JSON snapshots in S3 partitioned by date (/YYYY/MM/DD/), ensuring data immutability and 100% fidelity
+- Built a lean FastAPI/Mangum backend served through API Gateway, utilizing pre-aggregated data to deliver sub-second response times with zero read-time compute
+- Developed a custom Lambda Layer (dts_utils) to share utility code across functions, promoting DRY principles and simplifying the deployment of extraction and aggregation logic
+- Integrated production best practices including automated cron scheduling, API rate-limit handling, and comprehensive unit testing using pytest and moto
+
 ### Employee Management & Skills Tracking API
 *September 2025 – October 2025*
 
