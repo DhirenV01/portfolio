@@ -18,7 +18,7 @@ Monitoring & Performance: CloudWatch, performance tuning, database indexing
 ## Projects
 
 ### Github Data Tracker
-*November 2025 – January 2026*
+*November 2025 – Present*
 
 - Engineered a fully automated ETL pipeline using AWS Lambda, S3, and EventBridge to track and analyze global repository trends via the GitHub API
 - Implemented a multi-stage data lake pattern, moving data from raw daily snapshots (Bronze) to processed weekly/monthly summaries (Silver/Gold) for efficient querying
