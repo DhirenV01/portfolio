@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=JetBrains+Mono:wght@400;500;600;700&family=Syne:wght@600;700;800&display=swap");
+
+:root {
+  --bg: #0a0a0f;
+  --accent: #00e5ff;
+  --accent-dim: rgba(0, 229, 255, 0.15);
+  --accent-glow: rgba(0, 229, 255, 0.3);
+  --text: #e0e0e8;
+  --text-muted: #8888a0;
+  --border: rgba(255, 255, 255, 0.06);
+  --border-accent: rgba(0, 229, 255, 0.3);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 64px;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: "DM Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background: var(--accent-glow);
+  color: #fff;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* Utility classes */
+.grid-bg {
+  background-image: linear-gradient(rgba(0, 229, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 229, 255, 0.03) 1px, transparent 1px);
+  background-size: 60px 60px;
+  mask-image: radial-gradient(ellipse 80% 60% at 50% 0%, black 30%, transparent 70%);
+  -webkit-mask-image: radial-gradient(ellipse 80% 60% at 50% 0%, black 30%, transparent 70%);
+}
+
+.glow-orb-top {
+  background: radial-gradient(circle, rgba(0, 229, 255, 0.06) 0%, transparent 60%);
+  filter: blur(80px);
+}
+
+.glow-orb-bottom {
+  background: radial-gradient(circle, rgba(100, 0, 255, 0.04) 0%, transparent 60%);
+  filter: blur(60px);
+}
+
+/* Tech badge hover */
+.tech-badge {
+  @apply transition-all duration-200;
+}
+.tech-badge:hover {
+  background: rgba(0, 229, 255, 0.1) !important;
+  border-color: rgba(0, 229, 255, 0.3) !important;
+  color: var(--accent) !important;
+}
+
+/* Card hover glow */
+.card-glow {
+  @apply transition-all duration-300;
+}
+.card-glow:hover {
+  border-color: var(--border-accent) !important;
+  box-shadow: 0 8px 40px rgba(0, 229, 255, 0.06);
+}
+
+/* Nav link hover */
+.nav-link {
+  @apply transition-all duration-200;
+}
+.nav-link:hover {
+  color: var(--accent);
+  background: var(--accent-dim);
+}
+
+/* CTA button hover */
+.cta-primary:hover {
+  box-shadow: 0 0 24px rgba(0, 229, 255, 0.3);
+  transform: translateY(-1px);
+}
+.cta-outline:hover {
+  background: rgba(0, 229, 255, 0.1);
+  transform: translateY(-1px);
+}

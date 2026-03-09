@@ -1,34 +1,87 @@
-# Portfolio Starter Kit
+# Dhiren Vazirani — Portfolio
 
-This portfolio is built with **Next.js** and a library called [Nextra](https://nextra.vercel.app/). It allows you to write Markdown and focus on the _content_ of your portfolio. This starter includes:
+A modern, recruiter-impressive portfolio built with **Next.js 14**, **Tailwind CSS**, and **Framer Motion**. Dark fintech aesthetic with animated sections, typewriter hero, timeline experience, and glassmorphism project cards.
 
-- Automatically configured to handle Markdown/MDX
-- Generates an RSS feed based on your posts
-- A beautiful theme included out of the box
-- Easily categorize posts with tags
-- Fast, optimized web font loading
+![Next.js](https://img.shields.io/badge/Next.js-14-black?logo=next.js)
+![Tailwind](https://img.shields.io/badge/Tailwind-3.4-06B6D4?logo=tailwindcss)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.7-3178C6?logo=typescript)
+![Vercel](https://img.shields.io/badge/Deploy-Vercel-000?logo=vercel)
 
-## Configuration
+## Features
 
-1. Update your name in `theme.config.js` or change the footer.
-1. Update your name and site URL for the RSS feed in `scripts/gen-rss.js`.
-1. Update the meta tags in `pages/_document.js`.
-1. Update the posts inside `pages/posts/*.md` with your own content.
+- **Dark terminal-meets-fintech aesthetic** — deep charcoal, electric cyan accents, animated grid background
+- **Typewriter hero** with animated tagline and status badge
+- **Timeline experience section** with glowing dot indicators
+- **Project cards** with hover glow effects and tech stack tags
+- **Categorized skills grid** with interactive hover states
+- **Smooth scroll-reveal animations** via Framer Motion + Intersection Observer
+- **Fully responsive** — mobile hamburger nav, adaptive grid layouts
+- **SEO optimized** — Open Graph, Twitter cards, semantic HTML
+- **Vercel-ready** — zero config deployment
 
-## Deploy your own
+## Tech Stack
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+| Layer | Technology |
+|-------|-----------|
+| Framework | Next.js 14 (App Router) |
+| Styling | Tailwind CSS 3.4 |
+| Animations | Framer Motion 11 |
+| Icons | Lucide React |
+| Language | TypeScript 5.7 |
+| Deployment | Vercel |
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/nextjs-portfolio-starter&project-name=portfolio&repository-name=portfolio)
-
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+## Quick Start
 
 ```bash
-npx create-next-app --example blog my-blog
-# or
-yarn create next-app --example blog my-blog
+# Clone
+git clone https://github.com/DhirenV01/portfolio.git
+cd portfolio
+
+# Install
+npm install
+
+# Dev server
+npm run dev
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+Open [http://localhost:3000](http://localhost:3000).
+
+## Deploy to Vercel
+
+1. Push this repo to GitHub
+2. Go to [vercel.com/new](https://vercel.com/new)
+3. Import the repository
+4. Click **Deploy** — no configuration needed
+
+## Project Structure
+
+```
+portfolio/
+├── app/
+│   ├── globals.css        # Global styles + Tailwind + custom utilities
+│   ├── layout.tsx         # Root layout with metadata/SEO
+│   └── page.tsx           # Main page composing all sections
+├── components/
+│   ├── AnimatedSection.tsx # Scroll-reveal animation wrapper
+│   ├── GridBackground.tsx  # Ambient grid + glow orbs
+│   ├── Navbar.tsx         # Fixed nav with active section tracking
+│   ├── Hero.tsx           # Hero with typewriter effect
+│   ├── Experience.tsx     # Timeline experience cards
+│   ├── Projects.tsx       # Project showcase grid
+│   ├── Skills.tsx         # Categorized skill badges
+│   ├── Contact.tsx        # CTA contact section
+│   └── Footer.tsx         # Footer with education/cert
+├── lib/
+│   └── data.ts            # All content/data in one place
+├── tailwind.config.ts
+├── next.config.js
+└── package.json
+```
+
+## Customization
+
+All content lives in `lib/data.ts` — edit your info, experience, projects, and skills there. The design tokens (colors, fonts) are in `tailwind.config.ts` and `app/globals.css`.
+
+## License
+
+MIT
