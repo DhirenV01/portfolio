@@ -71,6 +71,15 @@ export const projects = [
     highlight: false,
   },
   {
+    title: "Earnings Call Intelligence Agent",
+    description:
+      "Production RAG pipeline for querying earnings call transcripts with speaker-level citations. Indexes transcript chunks into Pinecone, retrieves semantically relevant passages, and returns answers with precise speaker attribution via OpenAI.",
+    tech: ["Python", "FastAPI", "OpenAI", "Pinecone", "AWS"],
+    link: "https://earnings-intelligence-production-42c7.up.railway.app/docs",
+    github: "https://github.com/DhirenV01/earnings-intelligence",
+    highlight: false,
+  },
+  {
     title: "Financial Transaction Data Pipeline",
     description:
       "End-to-end AWS data pipeline for processing financial transactions. Ingests raw data into S3, transforms with Glue ETL jobs, and serves analytics-ready data through Athena for ad-hoc querying.",
