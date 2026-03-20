@@ -73,9 +73,9 @@ export const projects = [
   {
     title: "Earnings Call Intelligence Agent",
     description:
-      "Production RAG pipeline for querying earnings call transcripts with speaker-level citations. Indexes transcript chunks into Pinecone, retrieves semantically relevant passages, and returns answers with precise speaker attribution via OpenAI.",
-    tech: ["Python", "FastAPI", "OpenAI", "Pinecone", "AWS"],
-    link: "https://earnings-intelligence-production-42c7.up.railway.app/docs",
+      "Analysts spend hours reading earnings call transcripts to extract insights — this agent does it in seconds. Production RAG pipeline with a medallion ingestion architecture, speaker-level metadata and citation tracking, automatic financial glossary extraction, and DynamoDB query logging. Ask natural-language questions and get answers grounded in exact transcript passages with speaker attribution.",
+    tech: ["Python", "FastAPI", "OpenAI", "Pinecone", "AWS DynamoDB", "Railway"],
+    link: "https://earnings-intelligence-production-42c7.up.railway.app/demo",
     github: "https://github.com/DhirenV01/earnings-intelligence",
     highlight: false,
   },
