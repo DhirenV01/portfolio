@@ -53,13 +53,22 @@ export const experience = [
 
 export const projects = [
   {
+    title: "Earnings Call Intelligence Agent",
+    description:
+      "Analysts spend hours reading earnings call transcripts to extract insights — this agent does it in seconds. Production RAG pipeline with a medallion ingestion architecture, speaker-level metadata and citation tracking, automatic financial glossary extraction, and DynamoDB query logging. Ask natural-language questions and get answers grounded in exact transcript passages with speaker attribution.",
+    tech: ["Python", "FastAPI", "OpenAI", "Pinecone", "AWS DynamoDB", "Railway"],
+    link: "https://earnings-intelligence-production-42c7.up.railway.app/demo",
+    github: "https://github.com/DhirenV01/earnings-intelligence",
+    highlight: true,
+  },
+  {
     title: "MIRA — AI Talent Acquisition Platform",
     description:
       "Enterprise AI platform that matches candidates to roles using GPT-4 with RAG architecture, vector embeddings via Azure Cognitive Search, and intelligent document parsing. Built end-to-end with FastAPI backend and PySpark data pipelines on Delta Lake.",
     tech: ["GPT-4", "RAG", "Azure Cognitive Search", "PySpark", "FastAPI", "Delta Lake"],
     link: null,
     github: null,
-    highlight: true,
+    highlight: false,
   },
   {
     title: "GitHub Tech Trends Pipeline",
@@ -68,24 +77,6 @@ export const projects = [
     tech: ["AWS Lambda", "S3", "EventBridge", "API Gateway", "React", "Python"],
     link: "https://github-tech-trends.vercel.app",
     github: "https://github.com/DhirenV01",
-    highlight: false,
-  },
-  {
-    title: "Earnings Call Intelligence Agent",
-    description:
-      "Analysts spend hours reading earnings call transcripts to extract insights — this agent does it in seconds. Production RAG pipeline with a medallion ingestion architecture, speaker-level metadata and citation tracking, automatic financial glossary extraction, and DynamoDB query logging. Ask natural-language questions and get answers grounded in exact transcript passages with speaker attribution.",
-    tech: ["Python", "FastAPI", "OpenAI", "Pinecone", "AWS DynamoDB", "Railway"],
-    link: "https://earnings-intelligence-production-42c7.up.railway.app/demo",
-    github: "https://github.com/DhirenV01/earnings-intelligence",
-    highlight: false,
-  },
-  {
-    title: "Financial Transaction Data Pipeline",
-    description:
-      "End-to-end AWS data pipeline for processing financial transactions. Ingests raw data into S3, transforms with Glue ETL jobs, and serves analytics-ready data through Athena for ad-hoc querying.",
-    tech: ["AWS S3", "Lambda", "Glue", "Athena", "Python", "CloudWatch"],
-    link: null,
-    github: null,
     highlight: false,
   },
 ];
