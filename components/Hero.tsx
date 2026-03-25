@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { Github, Linkedin, FileText, MessageCircle } from "lucide-react";
 import { siteConfig } from "@/lib/data";
@@ -8,11 +9,11 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="min-h-screen flex items-center px-6 pt-24 pb-20"
+      className="min-h-screen flex items-center pt-24 pb-20"
     >
-      <div className="max-w-[1100px] mx-auto w-full flex items-center justify-between gap-12">
+      <div className="max-w-[1100px] mx-auto px-6 w-full grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         {/* Left: Text content */}
-        <div className="max-w-[680px]">
+        <div>
           {/* Status badge */}
           <motion.div
             initial={{ opacity: 0, y: 16 }}
@@ -100,16 +101,22 @@ export default function Hero() {
           </motion.div>
         </div>
 
-        {/* Right: 3D geometric asset container (desktop only) */}
+        {/* Right: Hero asset (desktop only) */}
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, delay: 0.4, ease: [0.16, 1, 0.3, 1] }}
-          className="hidden lg:flex items-center justify-center flex-shrink-0 w-[360px] h-[360px] rounded-2xl bg-gradient-to-br from-gray-50 to-gray-100 border border-border-subtle"
+          className="hidden lg:block"
         >
-          {/* Replace this placeholder with your 3D asset (image, canvas, or iframe) */}
-          <div className="w-full h-full rounded-2xl flex items-center justify-center overflow-hidden">
-            <span className="text-sm text-muted font-mono">3D Asset</span>
+          <div className="relative rounded-2xl border border-border-subtle bg-white/40 backdrop-blur-sm p-4">
+            <Image
+              src="/hero-asset.png"
+              alt="Abstract geometric visual"
+              width={520}
+              height={520}
+              priority
+              className="w-full h-auto rounded-xl"
+            />
           </div>
         </motion.div>
       </div>
