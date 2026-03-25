@@ -17,7 +17,7 @@ export default function Skills() {
           {skillCategories.map((cat, ci) => (
             <AnimatedSection key={ci} delay={ci * 0.08}>
               <div className="p-5 rounded-xl bg-white border border-border-subtle">
-                <h3 className="text-xs font-semibold text-accent uppercase tracking-wider mb-4">
+                <h3 className="font-mono text-xs font-semibold text-accent uppercase tracking-wider mb-4">
                   {cat.label}
                 </h3>
                 <div className="flex flex-wrap gap-2">

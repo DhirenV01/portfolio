@@ -103,7 +103,7 @@ export const skillCategories = [
   },
   {
     label: "Cloud & Infrastructure",
-    items: ["AWS (Lambda, S3, Glue, Athena, API Gateway)", "Azure (Databricks, Data Factory, Cognitive Search, OpenAI)", "Docker", "Terraform"],
+    items: ["AWS Lambda", "S3", "Glue", "Athena", "API Gateway", "Azure Databricks", "Data Factory", "Cognitive Search", "Azure OpenAI", "Docker", "Terraform"],
   },
   {
     label: "Data & ML",

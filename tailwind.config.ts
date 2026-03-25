@@ -22,9 +22,9 @@ const config: Config = {
         "border-subtle": "#E5E7EB",
       },
       fontFamily: {
-        display: ["Outfit", "sans-serif"],
-        body: ["Plus Jakarta Sans", "sans-serif"],
-        mono: ["JetBrains Mono", "monospace"],
+        display: ["var(--font-display)", "sans-serif"],
+        body: ["var(--font-body)", "sans-serif"],
+        mono: ["var(--font-mono)", "monospace"],
       },
       animation: {
         "fade-up": "fadeUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards",
