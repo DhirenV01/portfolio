@@ -108,14 +108,14 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.4, ease: [0.16, 1, 0.3, 1] }}
           className="hidden lg:block"
         >
-          <div className="relative rounded-2xl border border-border-subtle bg-white/40 backdrop-blur-sm p-4">
+          <div className="relative aspect-square rounded-2xl border border-border-subtle bg-white/40 backdrop-blur-sm overflow-hidden">
             <Image
               src="/hero-asset.png"
               alt="Abstract geometric visual"
-              width={520}
-              height={520}
+              fill
               priority
-              className="w-full h-auto rounded-xl"
+              sizes="(min-width: 1024px) 50vw, 0px"
+              className="object-contain p-4"
             />
           </div>
         </motion.div>
