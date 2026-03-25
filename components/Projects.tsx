@@ -27,6 +27,8 @@ function ProjectCard({
             className={`absolute top-4 right-4 px-2.5 py-0.5 rounded-full text-xs font-semibold ${
               project.badge === "Flagship"
                 ? "bg-accent-light text-accent"
+                : project.badge === "Enterprise"
+                ? "bg-amber-50 text-amber-700"
                 : "bg-emerald-50 text-emerald-700"
             }`}
           >
@@ -57,7 +59,7 @@ function ProjectCard({
           ))}
         </div>
 
-        <div className="flex gap-4">
+        {(project.link || project.github) && <div className="flex gap-4">
           {project.link && (
             <a
               href={project.link}
@@ -80,7 +82,7 @@ function ProjectCard({
               Source
             </a>
           )}
-        </div>
+        </div>}
       </motion.div>
     </AnimatedSection>
   );

@@ -72,7 +72,7 @@ export const projects = [
     link: null,
     github: null,
     highlight: false,
-    badge: null,
+    badge: "Enterprise",
   },
   {
     title: "SQL Adversarial Testing Agent",

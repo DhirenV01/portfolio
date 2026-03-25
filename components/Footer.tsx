@@ -7,6 +7,9 @@ export default function Footer() {
         <span className="text-sm text-muted">
           &copy; 2026 {siteConfig.name}
         </span>
+        <span className="text-xs text-muted/60">
+          Built with Next.js &amp; Tailwind CSS
+        </span>
       </div>
     </footer>
   );
