@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { Github, Linkedin, FileText, MessageCircle } from "lucide-react";
+import { Github, Linkedin, MessageCircle } from "lucide-react";
 import { siteConfig } from "@/lib/data";
 
 const hudLines = [
@@ -97,14 +97,7 @@ export default function Hero() {
               <Linkedin size={15} />
               LinkedIn
             </a>
-            <a
-              href="/resume.pdf"
-              className="inline-flex items-center gap-2 px-4 py-2.5 rounded-lg border border-border-subtle text-foreground text-sm font-semibold hover:bg-gray-50 transition-colors"
-            >
-              <FileText size={15} />
-              Resume
-            </a>
-            <button
+<button
               className="group relative inline-flex items-center gap-2 px-4 py-2.5 rounded-lg border border-accent-medium bg-accent-light text-accent text-sm font-semibold cursor-default"
               title="Coming soon"
             >
