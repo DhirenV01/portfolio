@@ -22,7 +22,7 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="min-h-[85vh] flex items-center pt-24 pb-16"
+      className="min-h-[70vh] flex items-center pt-24 pb-8"
     >
       <div className="max-w-[1100px] mx-auto px-6 w-full grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
         {/* Left: Text content */}
