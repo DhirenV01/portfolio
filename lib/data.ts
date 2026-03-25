@@ -98,24 +98,16 @@ export const projects = [
 
 export const skillCategories = [
   {
-    label: "Languages",
-    items: ["Python", "SQL", "Java", "TypeScript"],
+    label: "Languages & Frameworks",
+    items: ["Python", "SQL", "Java", "TypeScript", "FastAPI", "React", "Next.js"],
   },
   {
     label: "Cloud & Infrastructure",
     items: ["AWS Lambda", "S3", "Glue", "Athena", "API Gateway", "Azure Databricks", "Data Factory", "Cognitive Search", "Azure OpenAI", "Docker", "Terraform"],
   },
   {
-    label: "Data & ML",
-    items: ["Microsoft Fabric", "PySpark", "Pandas", "Delta Lake", "DuckDB", "Pinecone"],
-  },
-  {
-    label: "Frameworks & Tools",
-    items: ["FastAPI", "React", "Next.js", "Docker", "Terraform"],
-  },
-  {
-    label: "AI / ML",
-    items: ["GPT-4", "RAG", "LangChain", "Vector Embeddings"],
+    label: "Data & AI",
+    items: ["Microsoft Fabric", "PySpark", "Pandas", "Delta Lake", "DuckDB", "Pinecone", "GPT-4", "RAG", "LangChain", "Vector Embeddings"],
   },
 ];
 
