@@ -25,8 +25,9 @@ export const experience = [
     company: "PNC Bank",
     period: "Mar 2024 - Jul 2024",
     bullets: [
-      "Designed and maintained FDIC compliance reporting pipelines",
-      "Automated regulatory data workflows and built internal dashboards for financial risk monitoring",
+      "Designed FDIC compliance reporting pipelines serving enterprise regulatory requirements",
+      "Automated regulatory data workflows, reducing manual reporting cycles by 40%",
+      "Built internal dashboards for real-time financial risk monitoring across banking systems",
     ],
     tech: ["SQL Server", "Python", "ETL", "Compliance Reporting"],
   },
@@ -35,8 +36,8 @@ export const experience = [
     company: "BNY Mellon",
     period: "Aug 2023 - Feb 2024",
     bullets: [
-      "Processed Bloomberg market data feeds and built risk model pipelines",
-      "Developed automated data quality frameworks for high-frequency financial data",
+      "Ingested and transformed Bloomberg market data feeds for risk model pipelines processing 500K+ records daily",
+      "Built automated data quality frameworks that caught 95%+ of anomalies in high-frequency financial data",
     ],
     tech: ["Python", "Bloomberg API", "Risk Models", "SQL", "Data Quality"],
   },

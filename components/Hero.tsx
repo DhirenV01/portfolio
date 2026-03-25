@@ -10,7 +10,8 @@ export default function Hero() {
       id="hero"
       className="min-h-screen flex items-center px-6 pt-24 pb-20"
     >
-      <div className="max-w-[1100px] mx-auto w-full">
+      <div className="max-w-[1100px] mx-auto w-full flex items-center justify-between gap-12">
+        {/* Left: Text content */}
         <div className="max-w-[680px]">
           {/* Status badge */}
           <motion.div
@@ -98,6 +99,19 @@ export default function Hero() {
             </button>
           </motion.div>
         </div>
+
+        {/* Right: 3D geometric asset container (desktop only) */}
+        <motion.div
+          initial={{ opacity: 0, scale: 0.9 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.8, delay: 0.4, ease: [0.16, 1, 0.3, 1] }}
+          className="hidden lg:flex items-center justify-center flex-shrink-0 w-[360px] h-[360px] rounded-2xl bg-gradient-to-br from-gray-50 to-gray-100 border border-border-subtle"
+        >
+          {/* Replace this placeholder with your 3D asset (image, canvas, or iframe) */}
+          <div className="w-full h-full rounded-2xl flex items-center justify-center overflow-hidden">
+            <span className="text-sm text-muted font-mono">3D Asset</span>
+          </div>
+        </motion.div>
       </div>
     </section>
   );
