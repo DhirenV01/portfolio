@@ -5,56 +5,43 @@ import { experience } from "@/lib/data";
 
 export default function Experience() {
   return (
-    <section id="experience" className="py-24 px-6 relative">
-      <div className="max-w-[900px] mx-auto">
+    <section id="experience" className="py-24 px-6">
+      <div className="max-w-[1100px] mx-auto">
         <AnimatedSection>
-          <p className="font-mono text-xs text-accent tracking-[2px] mb-2">
-            02 // EXPERIENCE
-          </p>
-          <h2 className="font-display text-[clamp(28px,4vw,42px)] font-bold text-white mb-12 tracking-[-1px]">
-            Where I&apos;ve Built Things
+          <h2 className="font-display text-[clamp(28px,4vw,40px)] font-bold text-foreground mb-12 tracking-[-0.5px]">
+            Experience
           </h2>
         </AnimatedSection>
 
-        <div className="relative pl-7">
-          {/* Timeline line */}
-          <div className="absolute left-1 top-2 bottom-2 w-px bg-gradient-to-b from-accent to-transparent" />
-
+        <div className="space-y-5">
           {experience.map((exp, i) => (
-            <AnimatedSection key={i} delay={i * 0.1}>
-              <div className="relative mb-9 p-6 bg-bg-card rounded-xl border border-border-subtle card-glow">
-                {/* Timeline dot */}
-                <div
-                  className={`absolute -left-8 top-7 w-[9px] h-[9px] rounded-full border-2 border-accent ${
-                    i === 0
-                      ? "bg-accent shadow-[0_0_12px_rgba(0,229,255,0.3)]"
-                      : "bg-bg-card"
-                  }`}
-                />
-
-                <div className="flex justify-between items-start flex-wrap gap-2 mb-2.5">
+            <AnimatedSection key={i} delay={i * 0.08}>
+              <div className="p-6 bg-white rounded-xl border border-border-subtle hover:shadow-md transition-shadow duration-300">
+                <div className="flex justify-between items-start flex-wrap gap-2 mb-3">
                   <div>
-                    <h3 className="font-body text-lg font-semibold text-white mb-0.5">
+                    <h3 className="text-lg font-semibold text-foreground mb-0.5">
                       {exp.role}
                     </h3>
-                    <span className="font-body text-[15px] text-accent">
+                    <span className="text-sm font-medium text-accent">
                       {exp.company}
                     </span>
                   </div>
-                  <span className="font-mono text-xs text-muted whitespace-nowrap">
+                  <span className="font-mono text-xs text-muted whitespace-nowrap mt-1">
                     {exp.period}
                   </span>
                 </div>
 
-                <p className="font-body text-sm text-muted leading-relaxed mb-3.5">
-                  {exp.description}
-                </p>
+                <ul className="list-disc list-inside space-y-1 mb-4 text-sm text-muted leading-relaxed">
+                  {exp.bullets.map((bullet, j) => (
+                    <li key={j}>{bullet}</li>
+                  ))}
+                </ul>
 
                 <div className="flex flex-wrap gap-1.5">
                   {exp.tech.map((t) => (
                     <span
                       key={t}
-                      className="tech-badge px-2.5 py-0.5 rounded-md text-[11px] font-mono text-accent bg-accent-dim border border-[rgba(0,229,255,0.1)]"
+                      className="px-2.5 py-0.5 rounded-md text-xs font-mono text-accent bg-accent-light border border-transparent"
                     >
                       {t}
                     </span>

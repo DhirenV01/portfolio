@@ -2,12 +2,12 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Dhiren Vazirani — Software Engineer",
+  title: "Dhiren Vazirani | Data Engineer & AI Systems",
   description:
-    "Software Engineer specializing in AI/ML integration, cloud data pipelines, and building intelligent systems with Python, LLMs, and modern cloud infrastructure.",
+    "I build production AI and data systems in financial services. From RAG platforms to serverless pipelines, I ship software that turns complex data into real products.",
   keywords: [
-    "software engineer",
     "data engineer",
+    "software engineer",
     "AI",
     "machine learning",
     "Python",
@@ -19,18 +19,18 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Dhiren Vazirani" }],
   openGraph: {
-    title: "Dhiren Vazirani — Software Engineer",
+    title: "Dhiren Vazirani | Data Engineer & AI Systems",
     description:
-      "Building intelligent systems with AI, cloud pipelines, and modern data infrastructure.",
+      "I build production AI and data systems in financial services. From RAG platforms to serverless pipelines, I ship software that turns complex data into real products.",
     url: "https://www.dhirenvazirani.com",
     siteName: "Dhiren Vazirani",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Dhiren Vazirani — Software Engineer",
+    title: "Dhiren Vazirani | Data Engineer & AI Systems",
     description:
-      "Building intelligent systems with AI, cloud pipelines, and modern data infrastructure.",
+      "I build production AI and data systems in financial services. From RAG platforms to serverless pipelines, I ship software that turns complex data into real products.",
   },
   robots: { index: true, follow: true },
 };
@@ -42,7 +42,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className="bg-bg text-[#e0e0e8] font-body antialiased">
+      <body className="bg-bg text-foreground font-body antialiased">
         {children}
       </body>
     </html>

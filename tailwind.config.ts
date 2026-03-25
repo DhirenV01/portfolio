@@ -9,51 +9,30 @@ const config: Config = {
     extend: {
       colors: {
         bg: {
-          DEFAULT: "#0a0a0f",
-          card: "rgba(17, 17, 27, 0.8)",
-          "card-hover": "rgba(25, 25, 40, 0.9)",
+          DEFAULT: "#FAFAF9",
+          card: "#FFFFFF",
         },
+        foreground: "#1A1A1A",
         accent: {
-          DEFAULT: "#00e5ff",
-          dim: "rgba(0, 229, 255, 0.15)",
-          glow: "rgba(0, 229, 255, 0.3)",
+          DEFAULT: "#2563EB",
+          light: "rgba(37, 99, 235, 0.08)",
+          medium: "rgba(37, 99, 235, 0.15)",
         },
-        muted: "#8888a0",
-        "border-subtle": "rgba(255, 255, 255, 0.06)",
-        "border-accent": "rgba(0, 229, 255, 0.3)",
+        muted: "#6B7280",
+        "border-subtle": "#E5E7EB",
       },
       fontFamily: {
-        display: ["Syne", "sans-serif"],
-        body: ["DM Sans", "sans-serif"],
+        display: ["Outfit", "sans-serif"],
+        body: ["Plus Jakarta Sans", "sans-serif"],
         mono: ["JetBrains Mono", "monospace"],
       },
       animation: {
-        "fade-in": "fadeIn 0.7s cubic-bezier(0.16, 1, 0.3, 1) forwards",
-        "slide-up": "slideUp 0.7s cubic-bezier(0.16, 1, 0.3, 1) forwards",
-        float: "float 2s ease-in-out infinite",
-        blink: "blink 1s step-end infinite",
-        "glow-pulse": "glowPulse 3s ease-in-out infinite",
+        "fade-up": "fadeUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards",
       },
       keyframes: {
-        fadeIn: {
-          "0%": { opacity: "0" },
-          "100%": { opacity: "1" },
-        },
-        slideUp: {
-          "0%": { opacity: "0", transform: "translateY(32px)" },
+        fadeUp: {
+          "0%": { opacity: "0", transform: "translateY(24px)" },
           "100%": { opacity: "1", transform: "translateY(0)" },
-        },
-        float: {
-          "0%, 100%": { transform: "translateX(-50%) translateY(0)" },
-          "50%": { transform: "translateX(-50%) translateY(8px)" },
-        },
-        blink: {
-          "0%, 100%": { opacity: "1" },
-          "50%": { opacity: "0" },
-        },
-        glowPulse: {
-          "0%, 100%": { boxShadow: "0 0 20px rgba(0, 229, 255, 0.1)" },
-          "50%": { boxShadow: "0 0 40px rgba(0, 229, 255, 0.25)" },
         },
       },
     },
