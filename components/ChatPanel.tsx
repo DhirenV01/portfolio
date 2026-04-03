@@ -100,6 +100,7 @@ export default function ChatPanel({ open, onClose }: ChatPanelProps) {
             initial={{ x: "100%" }}
             animate={{ x: 0 }}
             exit={{ x: "100%" }}
+            onClick={(e) => e.stopPropagation()}
             transition={{ type: "spring", damping: 30, stiffness: 300 }}
             className="relative z-10 w-[400px] max-w-full h-full bg-white shadow-2xl flex flex-col"
           >
