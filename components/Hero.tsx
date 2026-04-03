@@ -6,7 +6,6 @@ import { Github, Linkedin, MessageCircle } from "lucide-react";
 import { siteConfig } from "@/lib/data";
 
 const hudLines = [
-  "STATUS: MIRA_AI_ACTIVE",
   "RAG_PROMPT_ENGINE: OPTIMIZED",
   "PIPELINE: BNY_MELLON_PROD",
   "COMPLIANCE: FDIC_VALIDATED",
@@ -18,7 +17,7 @@ const hudLines = [
   "MODEL: GPT4_TURBO_LOADED",
 ];
 
-export default function Hero() {
+export default function Hero({ onOpenChat }: { onOpenChat: () => void }) {
   return (
     <section
       id="hero"
@@ -98,14 +97,11 @@ export default function Hero() {
               LinkedIn
             </a>
 <button
-              className="group relative inline-flex items-center gap-2 px-4 py-2.5 rounded-lg border border-accent-medium bg-accent-light text-accent text-sm font-semibold cursor-default"
-              title="Coming soon"
+              onClick={onOpenChat}
+              className="inline-flex items-center gap-2 px-4 py-2.5 rounded-lg border border-accent-medium bg-accent-light text-accent text-sm font-semibold hover:bg-accent-medium/30 transition-colors"
             >
               <MessageCircle size={15} />
               Ask my AI
-              <span className="absolute -top-8 left-1/2 -translate-x-1/2 px-2 py-1 rounded text-xs bg-foreground text-white opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none">
-                Coming soon
-              </span>
             </button>
           </motion.div>
         </div>
