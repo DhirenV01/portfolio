@@ -29,6 +29,8 @@ Email: ${siteConfig.email}
 GitHub: ${siteConfig.github}
 LinkedIn: ${siteConfig.linkedin}`;
 
+export const maxDuration = 30;
+
 export async function POST(req: NextRequest) {
   const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
   const { messages } = await req.json();
@@ -41,13 +43,21 @@ export async function POST(req: NextRequest) {
 
   const readable = new ReadableStream({
     async start(controller) {
-      for await (const chunk of stream) {
-        const text = chunk.choices[0]?.delta?.content ?? "";
-        if (text) controller.enqueue(new TextEncoder().encode(text));
+      try {
+        for await (const chunk of stream) {
+          const text = chunk.choices[0]?.delta?.content ?? "";
+          if (text) controller.enqueue(new TextEncoder().encode(text));
+        }
+      } finally {
+        controller.close();
       }
-      controller.close();
     },
   });
 
-  return new Response(readable, { headers: { "Content-Type": "text/plain" } });
+  return new Response(readable, {
+    headers: {
+      "Content-Type": "text/plain; charset=utf-8",
+      "X-Content-Type-Options": "nosniff",
+    },
+  });
 }
