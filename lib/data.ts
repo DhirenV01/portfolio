@@ -1,8 +1,8 @@
 export const siteConfig = {
   name: "Dhiren Vazirani",
-  subtitle: "Data Engineering · AI Systems · Cloud Infrastructure",
+  subtitle: "Software Engineer · Backend Systems · APIs · Cloud Infrastructure",
   tagline:
-    "I build production AI and data systems in financial services. From RAG platforms to serverless pipelines, I ship software that turns complex data into real products.",
+    "I build production backend services, APIs, and cloud infrastructure in financial services. From scalable microservices to serverless pipelines, I ship reliable software that powers real products.",
   email: "dhirenvazirani@gmail.com",
   github: "https://github.com/DhirenV01",
   linkedin: "https://www.linkedin.com/in/dhiren-vazirani/",
@@ -10,36 +10,36 @@ export const siteConfig = {
 
 export const experience = [
   {
-    role: "Data Engineer",
+    role: "Software Engineer",
     company: "MetroStar Systems",
     period: "Jan 2025 - Oct 2025",
     bullets: [
-      "Led development of MIRA, an AI talent acquisition platform using GPT-4, RAG, and Azure Cognitive Search",
-      "Built Pulse executive financial dashboard on Microsoft Fabric with PySpark/Delta Lake medallion architecture",
-      "Prototyped Piper pricing intelligence tool using Azure AI Foundry",
+      "Built MIRA, a full-stack AI talent platform with FastAPI backend, GPT-4 integration, and Azure Cognitive Search for vector retrieval",
+      "Designed and deployed Pulse, an executive dashboard backed by PySpark services and Delta Lake medallion architecture on Microsoft Fabric",
+      "Prototyped Piper pricing intelligence API using Azure AI Foundry and RESTful service patterns",
     ],
-    tech: ["GPT-4", "RAG", "Azure AI", "PySpark", "Delta Lake", "FastAPI", "Microsoft Fabric"],
+    tech: ["FastAPI", "GPT-4", "Azure AI", "PySpark", "Delta Lake", "RAG", "Microsoft Fabric"],
   },
   {
-    role: "Data Analyst / Engineer",
+    role: "Data Engineer",
     company: "PNC Bank",
     period: "Mar 2024 - Jul 2024",
     bullets: [
-      "Designed FDIC compliance reporting pipelines serving enterprise regulatory requirements",
-      "Automated regulatory data workflows, reducing manual reporting cycles by 40%",
-      "Built internal dashboards for real-time financial risk monitoring across banking systems",
+      "Built FDIC compliance reporting services with automated ingestion pipelines serving enterprise regulatory systems",
+      "Engineered backend data workflows that reduced manual reporting cycles by 40% through scheduled automation",
+      "Developed internal APIs and services for real-time financial risk monitoring across banking platforms",
     ],
     tech: ["SQL Server", "Python", "ETL", "Compliance Reporting"],
   },
   {
-    role: "Data Scientist / Engineer",
+    role: "Software Engineer",
     company: "BNY Mellon",
     period: "Aug 2023 - Feb 2024",
     bullets: [
-      "Ingested and transformed Bloomberg market data feeds for risk model pipelines processing 500K+ records daily",
-      "Built automated data quality frameworks that caught 95%+ of anomalies in high-frequency financial data",
+      "Built backend services to ingest and transform Bloomberg market data feeds, processing 500K+ records daily for downstream risk systems",
+      "Developed automated data validation services that caught 95%+ of anomalies in high-frequency financial data streams",
     ],
-    tech: ["Python", "Bloomberg API", "Risk Models", "SQL", "Data Quality"],
+    tech: ["Python", "Bloomberg API", "SQL", "REST APIs", "Data Validation"],
   },
   {
     role: "Data Analyst Intern",
@@ -57,7 +57,7 @@ export const projects = [
   {
     title: "Earnings Call Intelligence Agent",
     description:
-      "Production RAG pipeline that extracts insights from earnings call transcripts in seconds. Medallion ingestion architecture with speaker-level metadata, citation tracking, automatic financial glossary extraction, and DynamoDB query logging.",
+      "Production API service that extracts insights from earnings call transcripts in seconds. FastAPI backend with medallion ingestion architecture, speaker-level metadata, citation tracking, automatic financial glossary extraction, and DynamoDB query logging.",
     tech: ["Python", "FastAPI", "OpenAI", "Pinecone", "AWS DynamoDB", "Railway"],
     link: "https://earnings-intelligence-production-42c7.up.railway.app/demo",
     github: "https://github.com/DhirenV01/earnings-intelligence",
@@ -67,7 +67,7 @@ export const projects = [
   {
     title: "MIRA: AI Talent Acquisition Platform",
     description:
-      "Enterprise AI platform that matches candidates to roles using GPT-4 with RAG architecture, vector embeddings via Azure Cognitive Search, and intelligent document parsing.",
+      "Enterprise backend platform with FastAPI services that match candidates to roles using GPT-4, RAG architecture, vector embeddings via Azure Cognitive Search, and intelligent document parsing.",
     tech: ["GPT-4", "RAG", "Azure Cognitive Search", "PySpark", "FastAPI", "Delta Lake"],
     link: null,
     github: null,
@@ -77,7 +77,7 @@ export const projects = [
   {
     title: "SQL Adversarial Testing Agent",
     description:
-      "Stress-tests AI-generated SQL by auto-generating adversarial datasets that surface logic errors, not syntax errors. 3-agent pipeline with schema analysis, data generation, and validation.",
+      "Backend testing service that stress-tests AI-generated SQL by auto-generating adversarial datasets that surface logic errors, not syntax errors. 3-agent pipeline with schema analysis, data generation, and validation via FastAPI endpoints.",
     tech: ["DuckDB", "GPT-4o", "Pydantic", "FastAPI", "Python"],
     link: null,
     github: "https://github.com/DhirenV01/sql-adversarial-agent",
@@ -87,7 +87,7 @@ export const projects = [
   {
     title: "GitHub Tech Trends Pipeline",
     description:
-      "Fully automated serverless ETL pipeline tracking global repository trends. Multi-stage data lake pattern (Bronze, Silver, Gold) with AWS Lambda, S3, and EventBridge.",
+      "Serverless backend pipeline tracking global repository trends. API Gateway endpoints backed by AWS Lambda functions, S3 storage, and EventBridge scheduling in a multi-stage data lake pattern.",
     tech: ["AWS Lambda", "S3", "EventBridge", "API Gateway", "React", "Python"],
     link: "https://github-tech-trends.vercel.app",
     github: "https://github.com/DhirenV01",
@@ -98,16 +98,16 @@ export const projects = [
 
 export const skillCategories = [
   {
-    label: "Languages & Frameworks",
-    items: ["Python", "SQL", "Java", "TypeScript", "FastAPI", "React", "Next.js"],
+    label: "Backend & Languages",
+    items: ["Python", "Java", "TypeScript", "SQL", "FastAPI", "REST APIs", "Microservices"],
   },
   {
     label: "Cloud & Infrastructure",
-    items: ["AWS Lambda", "S3", "Glue", "Athena", "API Gateway", "Azure Databricks", "Data Factory", "Cognitive Search", "Azure OpenAI", "Docker", "Terraform"],
+    items: ["AWS Lambda", "S3", "API Gateway", "Glue", "Athena", "Azure Databricks", "Data Factory", "Cognitive Search", "Docker", "Terraform"],
   },
   {
-    label: "Data & AI",
-    items: ["Microsoft Fabric", "PySpark", "Pandas", "Delta Lake", "DuckDB", "Pinecone", "GPT-4", "RAG", "LangChain", "Vector Embeddings"],
+    label: "AI & Data",
+    items: ["GPT-4", "RAG", "LangChain", "Pinecone", "Vector Embeddings", "PySpark", "Delta Lake", "DuckDB", "Pandas"],
   },
 ];
 
