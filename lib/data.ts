@@ -10,6 +10,15 @@ export const siteConfig = {
 
 export const experience = [
   {
+    role: "Software Engineer III",
+    company: "JPMorgan Chase",
+    period: "Jun 2026 - Present",
+    bullets: [
+      "TODO: Add bullet points",
+    ],
+    tech: ["TODO"],
+  },
+  {
     role: "Software Engineer",
     company: "MetroStar Systems",
     period: "Jan 2025 - Oct 2025",
